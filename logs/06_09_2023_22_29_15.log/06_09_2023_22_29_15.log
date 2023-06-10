@@ -1,0 +1,5 @@
+[ 2023-06-09 22:29:15,676 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-06-09 22:29:15,688 ] 187 werkzeug - INFO -  * Debugger PIN: 271-031-652
+[ 2023-06-09 22:29:25,180 ] 8 root - INFO - we are testing second method of filing logs
+[ 2023-06-09 22:29:25,183 ] 187 werkzeug - INFO - 127.0.0.1 - - [09/Jun/2023 22:29:25] "GET / HTTP/1.1" 200 -
+[ 2023-06-09 22:32:16,991 ] 187 werkzeug - INFO -  * Detected change in 'c:\\python machine learning pipeline project\\src_income_clean_data_shivan_kumar_youtube\\ml_pipeline_project\\src\\exception.py', reloading
