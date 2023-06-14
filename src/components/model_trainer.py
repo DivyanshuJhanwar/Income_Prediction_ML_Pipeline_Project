@@ -9,8 +9,7 @@ from dataclasses import dataclass
 from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 from src.utils import save_object
-
-
+from src.utils import evaluate_model
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
@@ -92,4 +91,4 @@ class ModelTrainer:
 
 
         except Exception as e:
-            raise CustmeException(e, sys)
+            raise CustomException(e, sys)
