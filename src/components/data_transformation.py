@@ -70,7 +70,7 @@ class DataTransformation:
 
         except Exception as e:
             logging.info("Outliers handling code")
-            raise CustmeException(e, sys)
+            raise CustomException(e, sys)
         
     def initiate_data_transformation(self, train_path, test_path): # For initiating Data_Transformation we need Train data and Test data.
 
