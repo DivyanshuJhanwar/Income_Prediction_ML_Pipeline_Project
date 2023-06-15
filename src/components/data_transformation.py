@@ -51,7 +51,7 @@ class DataTransformation:
 
 
         except Exception as e:
-            raise CustmeException(e, sys)
+            raise CustomException(e, sys)
         
     def remove_outliers_IQR(self, col, df):
         try:
@@ -126,4 +126,4 @@ class DataTransformation:
 
 
         except Exception as e:
-            raise CustmeException(e, sys)
+            raise CustomException(e, sys)
