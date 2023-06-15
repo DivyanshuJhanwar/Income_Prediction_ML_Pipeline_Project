@@ -6,7 +6,7 @@
 
 import os, sys
 from src.logger import logging
-from src.exception import CustmeException
+from src.exception import CustomException
 import numpy as np
 import pandas as pd
 from dataclasses import dataclass
@@ -80,4 +80,4 @@ class CustomeClass:
 
             return data
         except Exception as e:
-            raise CustmeException(e, sys)
+            raise CustomException(e, sys)
